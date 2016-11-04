@@ -290,14 +290,13 @@
 
 
 
-
           <div class="row">
 
 
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="x_panel">
                 <div class="x_title">
-                  <h2>Agregar un nuevo Proveedor</small></h2>
+                  <h2>Listado de Clientes</small></h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -317,37 +316,171 @@
                 </div>
                 <div class="x_content">
                   <p class="text-muted font-13 m-b-30">
-                    Agregar un nuevo proveedor
+                    Listado con las opciones de editar y borrar Cliente
                   </p>
+                  <table id="datatable-checkbox" class="table table-striped table-bordered bulk_action">
+                    <thead>
+                      <tr>
+                        <th>N°</th>
+                        <th>DNI</th>
+                        <th>Nombres y Apellidos</th>
+                        <th>Dirección</th>
+                        <th>Celular</th>
+                        <th>e-mail</th>
+                        <th>Operaciones</th>
+                      </tr>
+                    </thead>
 
-                  <form id="antoform2" class="form-horizontal calender" role="form">
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">RUC</label>
-                      <div class="col-sm-9">
-                        <input type="text" class="form-control" id="title2" name="title2" placeholder="ejemplo: 1146047743">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Razón Social</label>
-                      <div class="col-sm-9">
-                        <input type="text" class="form-control" id="title2" name="title2" placeholder="ejemplo: Empresa del Sur S.A.">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="col-sm-3 control-label">Dirección</label>
-                      <div class="col-sm-9">
-                        <input type="text" class="form-control" id="title2" name="title2" placeholder="ejemplo: Los Alamos N° 426">
-                      </div>
-                    </div>
-                  </form>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
 
-                  <div class="row">
-                    <div class="col-xs-12 text-center">
-                      <button type="button" class="btn btn-default antoclose2" data-dismiss="modal">Cancelar</button>
-                      <button type="button" class="btn btn-primary antosubmit2">Guardar Cambios</button>
-                    </div>
-                  </div>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>46047743</td>
+                        <td>Juan Perez Perez</td>
+                        <td>Los Alamos N° 426</td>
+                        <td>+51 948565633</td>
+                        <td>juanperez@gmail.com</td>
+                        <td>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalEditarRegistro">Editar</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#modalEliminarRegistro">Eliminar</button>
+                        </td>
+                      </tr>
 
+
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
@@ -356,6 +489,84 @@
         </div>
         <!-- /page content -->
 
+        <div id="modalEditarRegistro" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel2">Editar Cliente</h4>
+              </div>
+              <div class="modal-body">
+
+                <div id="testmodal2" style="padding: 5px 20px;">
+                  <form id="antoform2" class="form-horizontal calender" role="form">
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label">DNI</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="title2" name="title2" placeholder="46047743">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label">Nombres y Apellidos</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="title2" name="title2" placeholder="Juan Perez Perez">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label">Dirección</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="title2" name="title2" placeholder="Los Alamos N° 426">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label">celular</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="title2" name="title2" placeholder="+51 948565633">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label">e-mail</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="title2" name="title2" placeholder="juanperez@gmail.com">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default antoclose2" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary antosubmit2">Guardar Cambios</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="modalEliminarRegistro" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel2">Eliminar Cliente</h4>
+              </div>
+              <div class="modal-body">
+
+                <div id="testmodal2" style="padding: 5px 20px;">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h4 class="text-center">¿Seguro que desea eliminar el cliente?</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer text-center">
+                <button type="button" class="btn btn-default antoclose2" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger antosubmit2">Eliminar</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- footer content -->
         <footer>
